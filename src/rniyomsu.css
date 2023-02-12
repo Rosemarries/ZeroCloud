@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    word-wrap: break-word;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo {
+    background-image: url("https://www.linkpicture.com/q/1_1478.png");
+    background-attachment: unset;
+}
+
+#profile {
+    background-image: url("https://img.freepik.com/free-vector/flat-design-abstract-background_23-2149116123.jpg?w=1800&t=st=1676189798~exp=1676190398~hmac=6eb186f4e36e6f0988e0a9d049ae60d7bd0a379b23ca5b4b901d4c214361fcba");
+}
+
+#contact {
+    background-image: url("https://www.linkpicture.com/q/image-2_98.png");
+}
+
+#pro-img {
+    width: 40vh; 
+    height: 40vh;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#name {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#intro {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5vh;
+}
+
+#title {
+    font-size: 16px;
+}
+
+@media (max-width: 650px) {
+    #name {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    #intro {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #title {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 525px) {
+    #name {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #intro {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #title {
+        font-size: 10px;
+    }
+}
+
+#exp {
+    background-image: url("https://www.linkpicture.com/q/image_406.png");
+}
+
+#skill {
+    background-image: url("https://www.linkpicture.com/q/image-1_11.png");
+}

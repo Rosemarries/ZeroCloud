@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/home_out.css" rel="stylesheet">
+    <link href="rniyomsu.css" rel="stylesheet">
+    <title>Rniyomsu</title>
+</head>
+
+<body>
+    <div class="h-screen w-full bg-white relative flex overflow-hidden">
+
+        <!-- Sidebar -->
+        <aside class="h-full w-16 flex flex-col space-y-10 items-center justify-center relative bg-gray-800 text-white">
+            <!-- Profile -->
+            <a href="#profile"
+                class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+
+            <!-- Courses -->
+            <a href="#exp"
+                class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+            </a>
+
+            <!-- Theme -->
+            <a href="#skill"
+                class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+            </a>
+
+            <!-- Configuration -->
+            <a href="#contact"
+                class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+            </a>
+
+            <a href="home.html"
+                class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                </svg>
+            </a>
+        </aside>
+
+
+
+        <div class="w-full h-full flex flex-col justify-between">
+            <!-- Header -->
+            <header class="h-16 w-full flex items-center relative justify-end px-5 space-x-10 bg-gray-800">
+                <!-- Informação -->
+                <div class="flex flex-shrink-0 items-center space-x-4 text-white">
+
+                    <!-- Texto -->
+                    <div class="flex flex-col items-end ">
+                        <!-- Nome -->
+                        <div class="text-md font-medium ">Rniyomsu</div>
+                        <!-- Título -->
+                        <div class="text-sm font-regular">Student</div>
+                    </div>
+
+                    <!-- Foto -->
+                    <div id="photo" class="h-10 w-10 rounded-full cursor-pointer bg-gray-200 border-2 border-blue-400"></div>
+                </div>
+            </header>
+
+            <!-- Main -->
+            <main class="flex flex-wrap flex-col font-mono max-w-full h-full relative overflow-y-hidden">
+                <!-- Container -->
+                <div
+                    class="h-full m-0 md:m-4 flex flex-wrap items-start justify-start rounded-tl grid-flow-col auto-cols-max gap-4 overflow-y-scroll">
+                    <!-- Container -->
+                    <div id="profile" class="w-full h-fit min-h-full p-2 md:p-10 rounded-lg flex flex-shrink-0 flex-grow flex-col justify-center text-center bg-gray-400 flex-wrap">
+                        <h1 id="name">Rosarin Niyomsuntisuk</h1>
+                        <img class="transform transition duration-500 hover:scale-110" id="pro-img" src="https://cdn.discordapp.com/attachments/975070001503551491/1070692887886561360/1675343451142.jpg">
+                        <div id="intro">
+                            <h3>Hi, I'm Yaya.</h3>
+                            <h3>I'm studying in the 2nd year (KMITL)</h3>
+                        </div>
+                        <div id="title">
+                            <p>Major of Computer Engineering</p>
+                            <p>School of Engineering</p>
+                        </div>
+                    </div>
+
+                    <div id="exp" class="w-full h-fit min-h-full p-2 md:p-10 rounded-lg flex flex-wrap flex-col flex-shrink-0 flex-grow bg-gray-400 justify-center items-center">
+                        <div class="flex flex-wrap h-fit w-fit text-center justify-center items-center">
+                            <ul class="text-sm md:text-md border-y-4 p-4 md:p-9 m-5 md:m-10 space-y-7 shadow-lg bg-slate-200 bg-opacity-30 text-center justify-center items-center transform transition duration-500 hover:scale-110">
+                                <h2 class="m-auto w-fit text-center text-lg md:text-2xl font-bold p-5 bg-opacity-75 bg-slate-200 rounded-full">Professional Experiences</h2>
+                                <li>POSN Computer - 1st and 2nd camp</li>
+                                <li>The Binding of Isaac - Game Dev Project</li>
+                                <li></li>
+                                <li>Coding at 42bangkok KMITL</li>
+                            </ul>
+                            <ul class="text-sm md:text-md border-y-4 p-4 md:p-9 m-5 md:m-10 space-y-7 shadow-lg bg-slate-200 bg-opacity-30 text-center justify-center items-center transform transition duration-500 hover:scale-110">
+                                <h2 class="m-auto w-fit text-center text-lg md:text-2xl font-bold p-5 bg-opacity-75 bg-slate-200 rounded-full">Competitions</h2>
+                                <li>NCSA Thailand Cyber Top Talent Women 2022 - 2nd Place</li>
+                                <li>NCSA Thailand Cyber Top Talent 2022</li>
+                                <li>KPMG Cyber Security Challenge 2022</li>
+                                <li>Advanced Robot Compitition - High school</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="skill" class="flex flex-wrap flex-col w-full h-fit min-h-full p-2 pt-5 md:p-10 rounded-lg flex-shrink-0 flex-grow bg-gray-400 justify-center items-center">
+                        <h2 class="w-fit text-center align-middle text-lg md:text-2xl font-bold mb-10 p-5 bg-opacity-75 bg-slate-300 rounded-full transform transition duration-500 hover:scale-110">Skills</h2>
+                        <div class="flex flex-col md:flex-row flex-wrap flex-shrink-0 flex-grow gap-10 items-center justify-center">
+                            <div id="soft" class="w-fit h-fit bg-opacity-50 bg-slate-200 rounded-lg shadow-lg p-10 transform transition duration-500 hover:scale-110">
+                                <h4 class="text-md md:text-xl font-bold pb-7">Soft Skills</h4>
+                                <ul class="text-sm md:text-md divide-y-2 divide-gray-100">
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Flexibility skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Creativity skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Critical thinking skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                       Logical thinking skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Problem solving skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Always Positive
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="hard" class="w-fit h-fit bg-opacity-50 bg-slate-200 rounded-lg shadow-lg p-10 transform transition duration-500 hover:scale-110">
+                                <h4 class="text-md md:text-xl font-bold pb-7">Hard Skills</h4>
+                                <ul class="text-sm md:text-md divide-y-2 divide-gray-100">
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Programming skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Data Analysis skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Computer Knowledge skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Microsoft Office Programs skill
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Web Development
+                                    </li>
+                                    <li class="p-3 hover:bg-slate-400 hover:text-white">
+                                        Game Development
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="contact" class="flex flex-col w-full h-fit min-h-full p-2 pt-5 md:p-10 rounded-lg flex-shrink-0 flex-grow bg-slate-200 justify-center items-center">
+                        <h2 class="w-fit text-center align-middle text-lg md:text-2xl font-bold mb-10 p-5 bg-opacity-75 bg-slate-300 rounded-full transform transition duration-500 hover:scale-110">Contact</h2>
+                        <div id="contactid" class="w-fit h-fit bg-opacity-50 bg-slate-200 rounded-lg shadow-lg p-2 md:p-10 transform transition duration-500 hover:scale-110">
+                            <ul class="text-sm md:text-md divide-y-2 divide-gray-100">
+                                <li class="h-fit flex flex-wrap p-3 hover:bg-slate-400 hover:text-white">
+                                    <h4 class="w-32 font-bold">Phone number </h4>
+                                    <p>: 063-209-3464</p>
+                                </li>
+                                <li class="h-fit flex flex-wrap p-3 hover:bg-slate-400 hover:text-white">
+                                    <h4 class="w-32 font-bold">Facebook</h4>
+                                    <p>: Rosarin Niyomsuntisuk</p>
+                                </li>
+                                <li class="h-fit flex flex-wrap p-3 hover:bg-slate-400 hover:text-white">
+                                    <h4 class="w-32 font-bold">Instagram</h4>
+                                    <p>: rosemarr13s</p>
+                                </li>
+                                <li class="h-fit flex flex-wrap p-3 hover:bg-slate-400 hover:text-white">
+                                    <h4 class="w-32 font-bold">Email </h4>
+                                    <p>: 64010720@kmitl.ac.th</p>
+                                </li>
+                                <a href="https://github.com/Rosemarries" style="cursor: pointer;">
+                                    <li class="h-fit flex flex-wrap p-3 hover:bg-slate-400 hover:text-white">
+                                        <h4 class="w-32 font-bold">Github </h4>
+                                        <p>: https://github.com/Rosemarries</p>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+
+    </div>
+</body>
+
+</html>
